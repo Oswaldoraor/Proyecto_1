@@ -11,11 +11,11 @@ import java.io.Serializable;
  *
  * @author thene
  */
-public class Grado implements Serializable {
+public class Carreras implements Serializable {
     
     private static final long serialVersionUTD = 1L;
     private int id;
-    private int idCarrera;
+    private int idUniversidad;
     private String nombre;
     private String status;
 
@@ -27,12 +27,12 @@ public class Grado implements Serializable {
         this.id = id;
     }
 
-    public int getIdCarrera() {
-        return idCarrera;
+    public int getIdUniversidad() {
+        return idUniversidad;
     }
 
-    public void setIdCarrera(int idCarrera) {
-        this.idCarrera = idCarrera;
+    public void setIdUniversidad(int idUniversidad) {
+        this.idUniversidad = idUniversidad;
     }
 
     public String getNombre() {

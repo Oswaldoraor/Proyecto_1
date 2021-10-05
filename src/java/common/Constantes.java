@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dto;
-
-import java.io.Serializable;
+package common;
 
 /**
  *
  * @author thene
  */
-public class Carrera implements Serializable{
-     private static final long serialVersionUTD = 1L;
-     
-    
+public interface Constantes {
     
 }
